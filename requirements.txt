@@ -7,4 +7,3 @@ pycryptodome
 boto3
 redis
 retry
-openai=0.28
