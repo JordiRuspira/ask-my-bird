@@ -5,8 +5,8 @@ import os
 DEFAULT_USER = os.getenv('COMMUNITY_USER','')
 
 def use_key(key):
-	#openai.use_key(key)
-	openai.api_key(key)
+	openai.use_key(key)
+	#openai.api_key(key)
 
 usage_stats = stats.get_stats(user=DEFAULT_USER)
 def set_user(user):
